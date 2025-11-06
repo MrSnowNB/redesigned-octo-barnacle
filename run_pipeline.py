@@ -114,6 +114,7 @@ def main():
 
     args = parser.parse_args()
 
+    success = False  # Initialize to avoid unbound variable
     if args.command == 'extract':
         success = run_extraction()
     elif args.command == 'blend':
@@ -122,6 +123,9 @@ def main():
         success = run_integration_test()
     elif args.command == 'all':
         success = run_complete_pipeline()
+    else:
+        print(f"❌ Unknown command: {args.command}")
+        success = False
 
     sys.exit(0 if success else 1)
 
