@@ -23,7 +23,7 @@ Thumbs.db
 
 # Project outputs
 output/
-!output/.gitkeep
+!output/**/*.gitkeep
 
 # Logs
 *.log
