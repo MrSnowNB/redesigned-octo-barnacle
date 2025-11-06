@@ -1,0 +1,40 @@
+{
+  "project_name": "Alice Avatar Phase 0",
+  "version": "1.0",
+
+  "video_source": "input/base_video_static.mp4",
+  "fps": 30,
+  "duration_seconds": 8.0,
+
+  "viseme_timestamps": {
+    "AA": null,
+    "AE": null,
+    "AH": null,
+    "AO": null,
+    "EH": null,
+    "ER": null,
+    "EY": null,
+    "IH": null,
+    "IY": null,
+    "OW": null,
+    "UH": null,
+    "UW": null,
+    "M": null,
+    "F": null,
+    "TH": null
+  },
+
+  "extraction_params": {
+    "roi_padding": 25,
+    "min_mouth_width": 100,
+    "min_mouth_height": 60,
+    "save_verification_images": true,
+    "save_contact_sheet": true
+  },
+
+  "quality_thresholds": {
+    "min_detection_confidence": 0.5,
+    "min_tracking_confidence": 0.5,
+    "min_face_area_ratio": 0.05
+  }
+}

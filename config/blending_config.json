@@ -1,0 +1,22 @@
+{
+  "blending_mode": "poisson",
+  "feather_percent": 0.25,
+  "alignment_tolerance_pixels": 5,
+  "use_gpu_acceleration": false,
+
+  "poisson_params": {
+    "clone_type": "normal",
+    "blend_type": "mixed"
+  },
+
+  "alpha_blend_params": {
+    "feather_width": 15,
+    "feather_height": 10
+  },
+
+  "performance": {
+    "max_workers": 4,
+    "cache_visemes": true,
+    "output_quality": "high"
+  }
+}
